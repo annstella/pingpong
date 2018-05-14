@@ -6,7 +6,7 @@ function mypinfunction(yourNumber){
       pingposh.push("ping");
     }else if((i%5)===0) {
       pingposh.push("pong");
-    }else if((i%15)===0) {
+    }else if((i%3)===0 &&(i%5)===0) {
       pingposh.push("pingpong");
     }else{
       pingposh.push(i);
